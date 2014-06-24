@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'RoadNumbers';
+    src: url('../fonts/RoadNumbers.eot?v=1.0.0');
+    src: url('../fonts/RoadNumbers.eot?#iefix&v=1.0.0') format('embedded-opentype'),
+        url('../fonts/RoadNumbers.woff?v=1.0.0') format('woff'),
+        url('../fonts/RoadNumbers.ttf?v=1.0.0') format('truetype'),
+        url('../fonts/RoadNumbers.svg?v=0.0.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ui-vehicle-number {
+    font-family: 'RoadNumbers';
+    background: url(../images/bg-russia.png);
+    background-size: 100%;
+    position: relative;
+    width: 614px;
+    height: 124px;
+}
+.ui-vehicle-number > .number {
+    position: absolute;
+    left: 7%;
+    top: 0;
+    font-size: 140px;
+    line-height: 77px;
+    letter-spacing: 5px;
+}
+.ui-vehicle-number > .district {
+    position: absolute;
+    top: 0;
+    right: 6%;
+    width: 20%;
+    font-size: 100px;
+    line-height: 57px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+.ui-vehicle-number.small {
+    position: relative;
+    width: 307px;
+    height: 62px;
+}
+.ui-vehicle-number.small > .number {
+    font-size: 70px;
+    line-height: 38px;
+    letter-spacing: 3px;
+}
+.ui-vehicle-number.small > .district {
+    font-size: 50px;
+    line-height: 28px;
+    letter-spacing: 4px;
+}

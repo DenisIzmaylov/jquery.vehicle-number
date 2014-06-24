@@ -1,0 +1,16 @@
+{
+  "name": "jquery.vehicle-number",
+  "version": "1.0.0",
+  "main": [
+    "./css/jquery.vehicle-number.css",
+    "./js/jquery.vehicle-number.js",
+    "./images/rus.png",
+    "./fonts/RoadNumbers.eot",
+    "./fonts/RoadNumbers.svg",
+    "./fonts/RoadNumbers.ttf",
+    "./fonts/RoadNumbers.woff"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  }
+}
